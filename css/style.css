@@ -1,0 +1,376 @@
+.phongto img{
+    margin-right: 200px;
+}
+/* Body */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding:0;
+    margin:0;
+    background-color:darkgrey; 
+}
+body img {
+    border-radius: 20px;
+}
+.dinhhuong h2:hover{
+    color:teal;
+}
+.dinhhuong h3:hover{
+    color:black;
+}
+.lienhe img {
+    text-align: center;
+    display: inline-block;
+}
+.lienhe1 {
+    display: flex;
+  
+}    
+    
+/* Global */
+.container{
+    font-style: oblique;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+.container img{
+    float:right;
+}
+.container li{
+    color:green;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+.container h3 {
+    color:indigo;
+    margin-left: -10px;
+}
+.gioithieu2 a{
+    display: block;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:green;
+}
+.chuyentrang a{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color:brown;  
+    margin-right: 50px; 
+    text-decoration: underline;
+}
+.chuyentrang :hover{
+    color:wheat;
+}
+.home h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.dinhhuong h2,.cauhoi h2{
+    color:navy;
+    font-weight: bold;
+    text-decoration:underline;
+    text-align: center;
+}
+.dinhhuong li{
+    margin-left: 200px;
+}
+.dinhhuong h3{
+    text-decoration: underline;
+    color:sienna;
+    margin-left: 150px;
+}
+.cauhoi h3{
+    text-decoration: underline;
+    color:sienna;
+    margin-left: 15px;
+}
+.cauhoi p{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.cauhoi h3:hover{
+    color:palegreen
+}
+.cauhoi a {
+    float:right;
+    margin-right: 880px;
+    color:brown;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.cauhoi a:hover{
+    color:seagreen
+}
+.cauhoi h2:hover{
+color:steelblue
+}
+ul{
+    font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_1{
+    padding-top: 5px;
+    color:black;
+    background-color: royalblue;
+    font-size: 18px;
+}
+
+/* Header **/
+header{
+    background-image: url(/img/backgroundheader.jpg);
+    color:whitesmoke;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:yellowgreen 3px solid;
+}
+
+header a{
+    color:wheat;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+.highlight,  a{
+    color:paleturquoise;
+    font-weight:bold;
+
+}
+
+header a:hover{
+    color:orange;
+    font-weight: bold;
+    
+}
+
+/* Showcase */
+#showcase{
+    background-image:url(/img/anh-gif-3-min.gif);
+    padding:120px;
+    border-bottom: solid green;
+}
+
+#showcase h1{
+    font-size:40px;
+    color:hotpink;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#showcase h1:hover{
+    color: black;
+}
+#showcase p{
+    font-size:50px;
+}
+
+/* Boxes */
+#boxes{
+    background-color: darkgray;
+   
+}
+
+#boxes .box{
+    float: left;
+    text-align: left;
+    width: 30%;
+   font-size: 18px;
+   color:slateblue;
+   font-weight: bold;
+}
+#boxes .box img{
+    float: left;
+ padding: 20px;
+ border-radius: 20px;
+}
+
+/* Sidebar */
+aside#sidebar{
+   float: right;
+   width: 30%;
+   margin-top: 10px;
+   
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: brown solid 1px;
+    margin-bottom: 5px;
+    background: khaki;
+}
+
+footer{
+    font-family:monospace;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 60px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+footer a{
+    color:brown;
+    font-size: 20px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+  }
+.mb-100 {
+    margin-bottom: 100px;
+}
+  a {
+    text-decoration: none;
+    color: #333;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.section-title {
+    position: relative;
+}
+.section-title p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.section-title h4 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.section-title h4::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: darkgray;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+}
+.section-title h4::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FF7200;
+    left: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+.contact {
+    background-image: url("http://infinityflamesoft.com/html/abal-preview/assets/img/contact_back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.contact-form input,
+  textarea {
+    width: 100%;
+    border: 1px solid olive;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+.contact:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: darkgray;
+    z-index: -1;
+    opacity: .85;
+   
+}
+.single-contact {
+    text-align: left;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.single-contact i.fa {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-color: orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+.single-contact h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.single-contact p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.contact-form input[type="submit"] {
+    background-color: orange;
+    border: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+.contact-form input[type="submit"]:hover {
+    background-color: orange
+}
+.contact-form input:focus, textarea:focus {
+    border-color: orange
+}
+.section-title h4:hover{
+    color:black;
+}
